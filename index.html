@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>RIP FlappyBird+</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', monospace;
+      background: linear-gradient(#1e1e2f, #2c2c3f);
+      color: #d3d3d3;
+      text-align: center;
+      padding: 50px 20px;
+      background-image: url('https://www.transparenttextures.com/patterns/dark-mosaic.png');
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: rgba(0,0,0,0.6);
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255,255,255,0.1);
+    }
+
+    h1 {
+      font-size: 22px;
+      color: #ffcc00;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 14px;
+      color: #aaaaaa;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 1.8;
+      color: #cccccc;
+    }
+
+    .footer {
+      font-size: 10px;
+      color: #666;
+      margin-top: 50px;
+    }
+
+    img {
+      width: 100px;
+      margin: 30px 0;
+    }
+
+    .static {
+      animation: flicker 2s infinite;
+    }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="static">FlappyBird+</h1>
+    <h2>2024 — 2025</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/Flappy_Bird_icon.png" alt="Flappy Bird Icon" />
+    
+    <p>Один прыжок... второй...</p>
+    <p>Проект, вдохновлённый классикой. Короткий, но яркий.</p>
+    <p>Закрыт по юридическим причинам, но останется в наших сердцах как учебная платформа и источник вдохновения.</p>
+    <p>Спасибо всем, кто летал с нами. 🕊️</p>
+    
+    <div class="footer">
+      © 2025 Foliko Studio<br>
+      Никогда не забудем...
+    </div>
+  </div>
+
+  <!-- Музыка -->
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2022/11/03/audio_37e6bd58fd.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</body>
+</html>
